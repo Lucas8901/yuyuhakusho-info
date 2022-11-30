@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Poppins:wght@200;300;400;500;600;700&family=Rock+Salt&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.logo{
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-left: 12%;
+  padding-right: 12%;
+  position: relative;
+  z-index: 7;
+}
+ul{
+  display: flex;
+  gap: 35px;
+}
+
+.topo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.topo h2{
+  font-family: 'Marvel', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 2.1rem;
+}
+
+nav ul li a{
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+nav ul li a:hover{
+  color: #004ddd;
+  transition: .3s;
+}
+
+.main-text{
+  position: absolute;
+  top: 60%;
+  left: 12%;
+  transform: translateY(-50%);
+}
+
+.main-text h1{
+  font-size: 100px;
+  color: #3c3c3c;
+  font-weight: 800;
+  line-height:110px;
+}
+
+span{
+  color: white;
+  letter-spacing: 2px;
+}
+
+.main-text p{
+  color: #737373;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+button{
+  width: 160px;
+  background-color:#0092ac;;
+  padding: 12px 10px;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #003686;
+  font-weight: 800;
+}
+
+.main-img{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  bottom: -7%;
+  right: 12%;
+  text-align: right;
+
+}
+
+.main-img img{
+  height: 96%;
+
+}
